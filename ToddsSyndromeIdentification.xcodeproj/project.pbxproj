@@ -14,6 +14,7 @@
 		3A36E8B51D95BB5900C594E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A36E8B41D95BB5900C594E4 /* Assets.xcassets */; };
 		3A36E8B81D95BB5900C594E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36E8B61D95BB5900C594E4 /* LaunchScreen.storyboard */; };
 		3A36E8C31D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8C21D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift */; };
+		3A36E8CF1D95BD1200C594E4 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8CE1D95BD1200C594E4 /* Patient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3A36E8BE1D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToddsSyndromeIdentificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A36E8C21D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToddsSyndromeIdentificationTests.swift; sourceTree = "<group>"; };
 		3A36E8C41D95BB5900C594E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A36E8CE1D95BD1200C594E4 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,14 @@
 				3A36E8C41D95BB5900C594E4 /* Info.plist */,
 			);
 			path = ToddsSyndromeIdentificationTests;
+			sourceTree = "<group>";
+		};
+		3A36E8CD1D95BCF800C594E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A36E8CE1D95BD1200C594E4 /* Patient.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
