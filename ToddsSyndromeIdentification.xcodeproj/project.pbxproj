@@ -16,6 +16,7 @@
 		3A36E8C31D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8C21D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift */; };
 		3A36E8CF1D95BD1200C594E4 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8CE1D95BD1200C594E4 /* Patient.swift */; };
 		3A39F7701D95D0010085DB99 /* Syndrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F76F1D95D0010085DB99 /* Syndrome.swift */; };
+		3A39F7721D95D0530085DB99 /* PatientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F7711D95D0530085DB99 /* PatientCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		3A36E8C41D95BB5900C594E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A36E8CE1D95BD1200C594E4 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		3A39F76F1D95D0010085DB99 /* Syndrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syndrome.swift; sourceTree = "<group>"; };
+		3A39F7711D95D0530085DB99 /* PatientCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				3A36E8CE1D95BD1200C594E4 /* Patient.swift */,
 				3A39F76F1D95D0010085DB99 /* Syndrome.swift */,
+				3A39F7711D95D0530085DB99 /* PatientCard.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +220,8 @@
 			files = (
 				3A36E8B31D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld in Sources */,
 				3A36E8AD1D95BB5900C594E4 /* ViewController.swift in Sources */,
+				3A36E8CF1D95BD1200C594E4 /* Patient.swift in Sources */,
+				3A39F7721D95D0530085DB99 /* PatientCard.swift in Sources */,
 				3A36E8AB1D95BB5900C594E4 /* AppDelegate.swift in Sources */,
 				3A39F7701D95D0010085DB99 /* Syndrome.swift in Sources */,
 			);
