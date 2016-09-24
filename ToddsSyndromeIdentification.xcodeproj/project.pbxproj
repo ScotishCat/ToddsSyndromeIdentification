@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D686C81D96ECC8007DE930 /* PatientsDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D686C71D96ECC8007DE930 /* PatientsDataProviderProtocol.swift */; };
+		31D686CA1D96F0F1007DE930 /* RESTPatientsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D686C91D96F0F1007DE930 /* RESTPatientsDataProvider.swift */; };
 		3A36E8AB1D95BB5900C594E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8AA1D95BB5900C594E4 /* AppDelegate.swift */; };
 		3A36E8AD1D95BB5900C594E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8AC1D95BB5900C594E4 /* ViewController.swift */; };
 		3A36E8B01D95BB5900C594E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36E8AE1D95BB5900C594E4 /* Main.storyboard */; };
@@ -18,6 +20,7 @@
 		3A39F7681D95C5F80085DB99 /* SyndromeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F7671D95C5F80085DB99 /* SyndromeDetector.swift */; };
 		3A39F76A1D95C6400085DB99 /* ToddsSyndromeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F7691D95C6400085DB99 /* ToddsSyndromeDetector.swift */; };
 		3A39F76C1D95C9340085DB99 /* SyndromeDetectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F76B1D95C9340085DB99 /* SyndromeDetectorFactory.swift */; };
+		3A39F76E1D95CA390085DB99 /* PatientsPersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F76D1D95CA390085DB99 /* PatientsPersistencyManager.swift */; };
 		3A39F7701D95D0010085DB99 /* Syndrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F76F1D95D0010085DB99 /* Syndrome.swift */; };
 		3A39F7721D95D0530085DB99 /* PatientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F7711D95D0530085DB99 /* PatientCard.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D686C71D96ECC8007DE930 /* PatientsDataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsDataProviderProtocol.swift; sourceTree = "<group>"; };
+		31D686C91D96F0F1007DE930 /* RESTPatientsDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTPatientsDataProvider.swift; sourceTree = "<group>"; };
 		3A36E8A71D95BB5900C594E4 /* ToddsSyndromeIdentification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddsSyndromeIdentification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A36E8AA1D95BB5900C594E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A36E8AC1D95BB5900C594E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +53,7 @@
 		3A39F7671D95C5F80085DB99 /* SyndromeDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyndromeDetector.swift; sourceTree = "<group>"; };
 		3A39F7691D95C6400085DB99 /* ToddsSyndromeDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToddsSyndromeDetector.swift; sourceTree = "<group>"; };
 		3A39F76B1D95C9340085DB99 /* SyndromeDetectorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyndromeDetectorFactory.swift; sourceTree = "<group>"; };
+		3A39F76D1D95CA390085DB99 /* PatientsPersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsPersistencyManager.swift; sourceTree = "<group>"; };
 		3A39F76F1D95D0010085DB99 /* Syndrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syndrome.swift; sourceTree = "<group>"; };
 		3A39F7711D95D0530085DB99 /* PatientCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +125,9 @@
 				3A39F7671D95C5F80085DB99 /* SyndromeDetector.swift */,
 				3A39F7691D95C6400085DB99 /* ToddsSyndromeDetector.swift */,
 				3A39F76B1D95C9340085DB99 /* SyndromeDetectorFactory.swift */,
+				3A39F76D1D95CA390085DB99 /* PatientsPersistencyManager.swift */,
+				31D686C91D96F0F1007DE930 /* RESTPatientsDataProvider.swift */,
+				31D686C71D96ECC8007DE930 /* PatientsDataProviderProtocol.swift */,
 				3A39F76F1D95D0010085DB99 /* Syndrome.swift */,
 				3A39F7711D95D0530085DB99 /* PatientCard.swift */,
 			);
@@ -230,11 +239,14 @@
 			files = (
 				3A36E8B31D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld in Sources */,
 				3A36E8AD1D95BB5900C594E4 /* ViewController.swift in Sources */,
+				31D686C81D96ECC8007DE930 /* PatientsDataProviderProtocol.swift in Sources */,
+				31D686CA1D96F0F1007DE930 /* RESTPatientsDataProvider.swift in Sources */,
 				3A39F76C1D95C9340085DB99 /* SyndromeDetectorFactory.swift in Sources */,
 				3A36E8CF1D95BD1200C594E4 /* Patient.swift in Sources */,
 				3A39F7721D95D0530085DB99 /* PatientCard.swift in Sources */,
 				3A39F7681D95C5F80085DB99 /* SyndromeDetector.swift in Sources */,
 				3A36E8AB1D95BB5900C594E4 /* AppDelegate.swift in Sources */,
+				3A39F76E1D95CA390085DB99 /* PatientsPersistencyManager.swift in Sources */,
 				3A39F76A1D95C6400085DB99 /* ToddsSyndromeDetector.swift in Sources */,
 				3A39F7701D95D0010085DB99 /* Syndrome.swift in Sources */,
 			);
