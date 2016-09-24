@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D686C41D96BD04007DE930 /* AddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D686C31D96BD04007DE930 /* AddPatientViewController.swift */; };
+		31D686C61D96C52B007DE930 /* AddPatientViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D686C51D96C52B007DE930 /* AddPatientViewControllerDelegate.swift */; };
 		31D686C81D96ECC8007DE930 /* PatientsDataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D686C71D96ECC8007DE930 /* PatientsDataProviderProtocol.swift */; };
 		31D686CA1D96F0F1007DE930 /* RESTPatientsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D686C91D96F0F1007DE930 /* RESTPatientsDataProvider.swift */; };
 		3A36E8AB1D95BB5900C594E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8AA1D95BB5900C594E4 /* AppDelegate.swift */; };
-		3A36E8AD1D95BB5900C594E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8AC1D95BB5900C594E4 /* ViewController.swift */; };
 		3A36E8B01D95BB5900C594E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36E8AE1D95BB5900C594E4 /* Main.storyboard */; };
-		3A36E8B31D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8B11D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld */; };
 		3A36E8B51D95BB5900C594E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A36E8B41D95BB5900C594E4 /* Assets.xcassets */; };
 		3A36E8B81D95BB5900C594E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36E8B61D95BB5900C594E4 /* LaunchScreen.storyboard */; };
 		3A36E8C31D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36E8C21D95BB5900C594E4 /* ToddsSyndromeIdentificationTests.swift */; };
@@ -23,6 +23,9 @@
 		3A39F76E1D95CA390085DB99 /* PatientsPersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F76D1D95CA390085DB99 /* PatientsPersistencyManager.swift */; };
 		3A39F7701D95D0010085DB99 /* Syndrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F76F1D95D0010085DB99 /* Syndrome.swift */; };
 		3A39F7721D95D0530085DB99 /* PatientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A39F7711D95D0530085DB99 /* PatientCard.swift */; };
+		3AD336B91D95DAB8000E0FEB /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD336B81D95DAB8000E0FEB /* AppCoordinator.swift */; };
+		3AD336BE1D95DD92000E0FEB /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD336BD1D95DD92000E0FEB /* PatientsViewController.swift */; };
+		3AD336C01D95DDA4000E0FEB /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD336BF1D95DDA4000E0FEB /* PatientCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31D686C31D96BD04007DE930 /* AddPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientViewController.swift; sourceTree = "<group>"; };
+		31D686C51D96C52B007DE930 /* AddPatientViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPatientViewControllerDelegate.swift; sourceTree = "<group>"; };
 		31D686C71D96ECC8007DE930 /* PatientsDataProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsDataProviderProtocol.swift; sourceTree = "<group>"; };
 		31D686C91D96F0F1007DE930 /* RESTPatientsDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTPatientsDataProvider.swift; sourceTree = "<group>"; };
 		3A36E8A71D95BB5900C594E4 /* ToddsSyndromeIdentification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddsSyndromeIdentification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A36E8AA1D95BB5900C594E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A36E8AC1D95BB5900C594E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A36E8AF1D95BB5900C594E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A36E8B21D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToddsSyndromeIdentification.xcdatamodel; sourceTree = "<group>"; };
 		3A36E8B41D95BB5900C594E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A36E8B71D95BB5900C594E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A36E8B91D95BB5900C594E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +59,9 @@
 		3A39F76D1D95CA390085DB99 /* PatientsPersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsPersistencyManager.swift; sourceTree = "<group>"; };
 		3A39F76F1D95D0010085DB99 /* Syndrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Syndrome.swift; sourceTree = "<group>"; };
 		3A39F7711D95D0530085DB99 /* PatientCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientCard.swift; sourceTree = "<group>"; };
+		3AD336B81D95DAB8000E0FEB /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3AD336BD1D95DD92000E0FEB /* PatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
+		3AD336BF1D95DDA4000E0FEB /* PatientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31D686C21D96BCD3007DE930 /* Add Patient View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31D686C31D96BD04007DE930 /* AddPatientViewController.swift */,
+				31D686C51D96C52B007DE930 /* AddPatientViewControllerDelegate.swift */,
+			);
+			path = "Add Patient View Controller";
+			sourceTree = "<group>";
+		};
 		3A36E89E1D95BB5900C594E4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,13 +113,13 @@
 			isa = PBXGroup;
 			children = (
 				3A36E8CD1D95BCF800C594E4 /* Models */,
+				3AD336B61D95DA8F000E0FEB /* Coordinators */,
+				3AD336B71D95DA8F000E0FEB /* UI */,
 				3A36E8AA1D95BB5900C594E4 /* AppDelegate.swift */,
-				3A36E8AC1D95BB5900C594E4 /* ViewController.swift */,
 				3A36E8AE1D95BB5900C594E4 /* Main.storyboard */,
 				3A36E8B41D95BB5900C594E4 /* Assets.xcassets */,
 				3A36E8B61D95BB5900C594E4 /* LaunchScreen.storyboard */,
 				3A36E8B91D95BB5900C594E4 /* Info.plist */,
-				3A36E8B11D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld */,
 			);
 			path = ToddsSyndromeIdentification;
 			sourceTree = "<group>";
@@ -132,6 +147,32 @@
 				3A39F7711D95D0530085DB99 /* PatientCard.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3AD336B61D95DA8F000E0FEB /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				3AD336B81D95DAB8000E0FEB /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		3AD336B71D95DA8F000E0FEB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3AD336BC1D95DD92000E0FEB /* Patients View Controller */,
+				31D686C21D96BCD3007DE930 /* Add Patient View Controller */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3AD336BC1D95DD92000E0FEB /* Patients View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AD336BD1D95DD92000E0FEB /* PatientsViewController.swift */,
+				3AD336BF1D95DDA4000E0FEB /* PatientCell.swift */,
+			);
+			path = "Patients View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,14 +278,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A36E8B31D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld in Sources */,
-				3A36E8AD1D95BB5900C594E4 /* ViewController.swift in Sources */,
 				31D686C81D96ECC8007DE930 /* PatientsDataProviderProtocol.swift in Sources */,
 				31D686CA1D96F0F1007DE930 /* RESTPatientsDataProvider.swift in Sources */,
+				3AD336B91D95DAB8000E0FEB /* AppCoordinator.swift in Sources */,
+				31D686C41D96BD04007DE930 /* AddPatientViewController.swift in Sources */,
 				3A39F76C1D95C9340085DB99 /* SyndromeDetectorFactory.swift in Sources */,
 				3A36E8CF1D95BD1200C594E4 /* Patient.swift in Sources */,
 				3A39F7721D95D0530085DB99 /* PatientCard.swift in Sources */,
+				3AD336C01D95DDA4000E0FEB /* PatientCell.swift in Sources */,
+				31D686C61D96C52B007DE930 /* AddPatientViewControllerDelegate.swift in Sources */,
 				3A39F7681D95C5F80085DB99 /* SyndromeDetector.swift in Sources */,
+				3AD336BE1D95DD92000E0FEB /* PatientsViewController.swift in Sources */,
 				3A36E8AB1D95BB5900C594E4 /* AppDelegate.swift in Sources */,
 				3A39F76E1D95CA390085DB99 /* PatientsPersistencyManager.swift in Sources */,
 				3A39F76A1D95C6400085DB99 /* ToddsSyndromeDetector.swift in Sources */,
@@ -454,6 +498,7 @@
 				3A36E8C91D95BB5900C594E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A36E8CA1D95BB5900C594E4 /* Build configuration list for PBXNativeTarget "ToddsSyndromeIdentificationTests" */ = {
 			isa = XCConfigurationList;
@@ -462,21 +507,9 @@
 				3A36E8CC1D95BB5900C594E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3A36E8B11D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3A36E8B21D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodel */,
-			);
-			currentVersion = 3A36E8B21D95BB5900C594E4 /* ToddsSyndromeIdentification.xcdatamodel */;
-			path = ToddsSyndromeIdentification.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3A36E89F1D95BB5900C594E4 /* Project object */;
 }
